@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"/>
+        <meta
+            name="description"
+            content="Etudiant développeur informatique. Toutes les informations me concernant sont sur ce site.">
+        <title>Projets</title>
+        <link rel="stylesheet" href="../css/styles.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body onload="javascript:projectGen()">
+        <div id="particles-js"></div>
+        <header>
+            <nav>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" id="name-title">a.nparasan</a></li>
+                    <li class="hide-on-mobile"><a href="parcours.html">parcours</a></li>
+                    <li class="hide-on-mobile"><a href="projets.html">projets</a></li>
+                    <li class="hide-on-mobile"><a href="romans.html">romans</a></li>
+                    <li class="hide-on-mobile"><a href="moi.html">moi</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </header>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#/">&times;</a></li>
+            <li><a href="index.html" id="name-title">a.nparasan</a></li>
+            <li><a href="parcours.html">parcours</a></li>
+            <li><a href="projets.html">projets</a></li>
+            <li><a href="romans.html">romans</a></li>
+            <li><a href="moi.html">moi</a></li>
+        </ul>
+        <h3 class="projects-heading">Projects</h3>
+        <div class="projects-wrapper"></div>
+        <script src="../js/particles.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+
+</html>

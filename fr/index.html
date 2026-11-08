@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"/>
+        <meta
+            name="description"
+            content="Etudiant développeur informatique. Toutes les informations me concernant sont sur ce site.">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="../css/styles.css"/>
+    </head>
+
+    <body>
+        <div id="particles-js"></div>
+        <header>
+            <nav>
+                
+                <ul class="nav-links">
+                    <li><a href="#" id="name-title">a.nparasan</a></li>
+                    <li class="hide-on-mobile"><a href="parcours.html">parcours</a></li>
+                    <li class="hide-on-mobile"><a href="projets.html">projets</a></li>
+                    <li class="hide-on-mobile"><a href="romans.html">romans</a></li>
+                    <li class="hide-on-mobile"><a href="moi.html">moi</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </header>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#/">&times;</a></li>
+            <li><a href="#" id="name-title">a.nparasan</a></li>
+            <li><a href="parcours.html">parcours</a></li>
+            <li><a href="projets.html">projets</a></li>
+            <li><a href="romans.html">romans</a></li>
+            <li><a href="moi.html">moi</a></li>
+        </ul>
+        <section class="presentation-section">
+            <div class="presentation-text-cont">
+                <p><span>Hello.</span></p>
+                <p>Je m'appelle Anparasan ANPUKKODY. Développeur web, ingénieur informatique.</p>
+                <p>Vous êtes un recruteur ? Un collègue ? Ou un simple curieux... ?</p>
+                <p>Vous êtes au bon endroit pour en apprendre plus sur moi, sur mes projets, et sur mon parcours...</p>
+            </div>
+            <p class="scroll-arrow">⌄</p>
+        </section>
+        <hr>
+        <section class="engine-section">
+            <img class="v6Engine" src="../assets/index/v6Engine.png" alt="V6 Busso Alfa Romeo">
+            <div class="engine-text-cont">
+                <p class="engine-text">Commençons par ca... Le <span>V6 Busso</span> de chez <span>Alfa Romeo</span></p>
+                <p class="engine-text">Développé par Giuseppe Busso, il est considéré comme l'un des meilleurs V6 de chez Alfa Romeo et pour certains...</p>
+                <p class="engine-text">...l'un des meilleurs de tout les V6.</p>
+                <p class="engine-text">Il est surnommé le "Violon d'Arese" ou le "Violon de l'Alfa"</p>
+            </div>
+        </section>
+        <hr>
+        <section class="motivation-section">
+            <div class="motivation-text-cont">
+                <p class="motivation-text">Pourquoi est-ce que je parle d'un moteur ?</h2>
+                <p class="motivation-text">A travers cette section, je voulais vous montrer ma passion pour l'automobile, mon moteur de conduite pour poursuivre mes rêves, ainsi que
+                    ma motivation et mon amour pour la création.</p>
+                <p class="motivation-text">Tout comme Busso a créé cet incroyable moteur...</p>
+                <p class="motivation-text">Je veux moi aussi créer quelque chose d'incroyable dans ce monde... et cela commence ici.</p>
+            </div>
+        </section>
+        <script src="../js/particles.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

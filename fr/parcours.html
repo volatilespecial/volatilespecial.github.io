@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"/>
+        <meta
+            name="description"
+            content="Etudiant développeur informatique. Toutes les informations me concernant sont sur ce site.">
+        <title>Parcours</title>
+        <link rel="stylesheet" href="../css/styles.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div id="particles-js"></div>
+        <header>
+            <nav>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" id="name-title">a.nparasan</a></li>
+                    <li class="hide-on-mobile"><a href="parcours.html">parcours</a></li>
+                    <li class="hide-on-mobile"><a href="projets.html">projets</a></li>
+                    <li class="hide-on-mobile"><a href="romans.html">romans</a></li>
+                    <li class="hide-on-mobile"><a href="moi.html">moi</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </header>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#/">&times;</a></li>
+            <li><a href="index.html" id="name-title">a.nparasan</a></li>
+            <li><a href="parcours.html">parcours</a></li>
+            <li><a href="projets.html">projets</a></li>
+            <li><a href="romans.html">romans</a></li>
+            <li><a href="moi.html">moi</a></li>
+        </ul>
+        <div class="timeline-wrapper">
+            <div class="timeline-row">
+                <div class="timeline-column">
+                    <h2 class="heading">
+                        <i class="bx bxs-graduation"></i>
+                        Formation
+                    </h2>
+                    <div class="timeline-box">
+                        <div class="content-box">
+                            <div class="date">
+                                2023 - 2026
+                            </div>
+                            <h3>Licence Informatique</h3>
+                            <h4>Université Paris 8, Saint-Denis, France</h4>
+                        </div>
+                        <div class="content-box">
+                            <div class="date">
+                                2018 - 2021
+                            </div>
+                            <h3>Baccalauréat Mathématiques, Physique-chimie</h3>
+                            <h4>Lycée Eugène Delacroix, Drancy, France</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="timeline-column">
+                    <h2 class="heading">
+                        Experience
+                    </h2>
+                </div> -->
+            </div>
+
+        </div>
+        <script src="../js/particles.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

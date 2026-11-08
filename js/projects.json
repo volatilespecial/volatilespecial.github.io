@@ -1,0 +1,350 @@
+{
+    "projects":[
+        {
+            "project_title": "Contrôleur de LED pour phares (Angel Eyes)",
+            "project_short_desc": "Un contrôleur fait avec EasyEDA et Arduino - <i>en cours</i>",
+            "project_card_title": "Contrôleur de LED pour phares (Angel Eyes)",
+            "project_desc": "Un contrôleur complètement custom fait avec EasyEDA et un Arduino. Permet l'intégration de LED (Angel Eyes) sur des phares de voitures. (projet en cours)",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "#"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/angeleyes/thumbnail.jpg",
+                    "alt": "Circuit board"
+                },
+                {
+                    "src": "../assets/projets/angeleyes/img1.jpg",
+                    "alt": "Schematic of a circuit board"
+                },
+                {
+                    "src": "../assets/projets/angeleyes/img2.jpg",
+                    "alt": "Schematic of a circuit board"
+                },
+                {
+                    "src": "../assets/projets/angeleyes/img3.jpg",
+                    "alt": "Circuit board in 3D view"
+                }
+            ]
+        },
+        {
+            "project_title": "Choco",
+            "project_short_desc": "Animation 3D en hommage à mon chien, Choco - <i>2026</i>",
+            "project_card_title": "Choco",
+            "project_desc": "Une animation 3D en OpenGL avec la librairie GL4D. Elle rend hommage à mon chien, Choco, et a remporté la <b>1ère place</b> au concours de Programmation <i>API8 X</i>, à <i>l'université Paris 8, France</i>.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2026_Choco"
+                },
+                {
+                    "name": "Démo",
+                    "href": "#"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/choco/thumbnail.jpg",
+                    "alt": "Stars showing a dog"
+                },
+                {
+                    "src": "../assets/projets/choco/img1.jpg",
+                    "alt": "Stars showing a dog, Choco"
+                },
+                {
+                    "src": "../assets/projets/choco/img2.jpg",
+                    "alt": "Two spheres moving around leaving trails behind"
+                },
+                {
+                    "src": "../assets/projets/choco/img3.jpg",
+                    "alt": "Two spheres moving around leaving trails behind"
+                },
+                {
+                    "src": "../assets/projets/choco/img4.jpg",
+                    "alt": "Two spheres moving around leaving trails behind"
+                }
+            ]
+        },
+        {
+            "project_title": "Obsidian Bank",
+            "project_short_desc": "Site bancaire en Python - <i>2025</i>",
+            "project_card_title": "Obsidian Bank",
+            "project_desc": "Une application web en Python qui reproduit un site bancaire avec accès et gestion des comptes, administratifs et particuliers. Gestion des sessions avec expiration de cookies et chiffrement des données dans une base de donnée SQL.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2025_Obsidian-Bank"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/obsidian_bank/thumbnail.jpg",
+                    "alt": "Login of a banking website"
+                },
+                {
+                    "src": "../assets/projets/obsidian_bank/img1.jpg",
+                    "alt": "Terminal showing a program"
+                },
+                {
+                    "src": "../assets/projets/obsidian_bank/img2.jpg",
+                    "alt": "Banking website with login and signup options"
+                },
+                {
+                    "src": "../assets/projets/obsidian_bank/img3.jpg",
+                    "alt": "Banking website showing an account"
+                },
+                {
+                    "src": "../assets/projets/obsidian_bank/img4.jpg",
+                    "alt": "Banking website showing many options"
+                }
+            ]
+        },
+        {
+            "project_title": "Simulateur d'écosystème",
+            "project_short_desc": "Un simulateur d'écosystème - <i>2025</i>",
+            "project_card_title": "Simulateur d'écosystème",
+            "project_desc": "Un simulateur simple d'écosystème en C++ sur une grille redimensionnable avec des loups et des moutons.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2025_Ecosystem-Simulator"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/ecosysteme/thumbnail.jpg",
+                    "alt": "Terminal showing an ecosystem simulator"
+                },
+                {
+                    "src": "../assets/projets/ecosysteme/img1.jpg",
+                    "alt": "Terminal showing a program"
+                },
+                {
+                    "src": "../assets/projets/ecosysteme/img2.jpg",
+                    "alt": "Terminal showing a program"
+                },
+                {
+                    "src": "../assets/projets/ecosysteme/img3.jpg",
+                    "alt": "Terminal showing a program"
+                }
+            ]
+        },
+        {
+            "project_title": "Bomb Party",
+            "project_short_desc": "Jeu Bomb Party en multijoueur - <i>2025</i>",
+            "project_card_title": "Bomb Party",
+            "project_desc": "Jeu Bomb Party consistant à trouver des mots dans un temps imparti. Serveur et client en Java, jouable avec des serveurs et clients non-Java.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2025_Bomb-Party"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/bomb_party/thumbnail.jpg",
+                    "alt": "Server/client protocol of a multiplayer game"
+                },
+                {
+                    "src": "../assets/projets/bomb_party/img1.jpg",
+                    "alt": "Server/client protocol"
+                },
+                {
+                    "src": "../assets/projets/bomb_party/img2.jpg",
+                    "alt": "Lines of code"
+                },
+                {
+                    "src": "../assets/projets/bomb_party/img3.jpg",
+                    "alt": "Lines of code"
+                }
+            ]
+        },
+        {
+            "project_title": "A Lifetime of Tunnels",
+            "project_short_desc": "Animation 3D sur le cycle de la vie - <i>2025</i>",
+            "project_card_title": "A Lifetime of Tunnels",
+            "project_desc": "Une animation 3D en OpenGL avec la librairie GL4D représentant le cycle de la vie. Démo présentée au concours de programmation API8 à l'université Paris 8, France.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2025_A-Lifetime-Of-Tunnels"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/a_lifetime_of_tunnels/thumbnail.jpg",
+                    "alt": "A tunnel twisting on itself"
+                },
+                {
+                    "src": "../assets/projets/a_lifetime_of_tunnels/img1.jpg",
+                    "alt": "A twisted tunnel"
+                },
+                {
+                    "src": "../assets/projets/a_lifetime_of_tunnels/img2.jpg",
+                    "alt": "A white ground with chairs and a writing board"
+                },
+                {
+                    "src": "../assets/projets/a_lifetime_of_tunnels/img3.jpg",
+                    "alt": "Lines of code"
+                },
+                {
+                    "src": "../assets/projets/a_lifetime_of_tunnels/img4.jpg",
+                    "alt": "Lines of code"
+                }
+            ]
+        },
+        {
+            "project_title": "SUTOM",
+            "project_short_desc": "Le jeu SUTOM en Python - <i>2024</i>",
+            "project_card_title": "SUTOM",
+            "project_desc": "Jeu SUTOM fait en Python, complété par un autre groupe.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2024_Sutom"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/sutom/thumbnail.jpg",
+                    "alt": "Diagram of a python game"
+                },
+                {
+                    "src": "../assets/projets/sutom/img1.jpg",
+                    "alt": "Diagram explaining a program"
+                },
+                {
+                    "src": "../assets/projets/sutom/img2.jpg",
+                    "alt": "Program usage example"
+                },
+                {
+                    "src": "../assets/projets/sutom/img3.jpg",
+                    "alt": "Program usage example"
+                }
+            ]
+        },
+        {
+            "project_title": "Modèles d'apprentissage",
+            "project_short_desc": "Implémentation et test de modèles d'apprentissage - <i>2024</i>",
+            "project_card_title": "Modèles d'apprentissage",
+            "project_desc": "Implémentation de divers modèles d'apprentissage et tests avec un jeu de donnée de <i>UC Irvine Machine Learning Repository</i>, le NHANES (National Health and Nutrition Examination Survey).",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2024_Learning-Models-Tests"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/modele_apprentissage/thumbnail.jpg",
+                    "alt": "Results of a learning model"
+                },
+                {
+                    "src": "../assets/projets/modele_apprentissage/img1.jpg",
+                    "alt": "Results of a learning model"
+                },
+                {
+                    "src": "../assets/projets/modele_apprentissage/img2.jpg",
+                    "alt": "Lines of code"
+                },
+                {
+                    "src": "../assets/projets/modele_apprentissage/img3.jpg",
+                    "alt": "Lines of code"
+                }
+            ]
+        },
+        {
+            "project_title": "Compresseur Huffman",
+            "project_short_desc": "Compresser des fichiers textes avec l'algorithme Huffman - <i>2024</i>",
+            "project_card_title": "Compresseur Huffman",
+            "project_desc": "Algorithme de Huffman implémenté en C pour permettre la compression et decompression des fichiers textes. Construction d'un arbre Huffman.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2024_Huffman-Compressor"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/huffman/thumbnail.jpg",
+                    "alt": "Terminal showing a compressing program"
+                },
+                {
+                    "src": "../assets/projets/huffman/img1.jpg",
+                    "alt": "Terminal showing a program"
+                },
+                {
+                    "src": "../assets/projets/huffman/img2.jpg",
+                    "alt": "Compressed file"
+                },
+                {
+                    "src": "../assets/projets/huffman/img3.jpg",
+                    "alt": "Program explanation" 
+                }
+            ]
+        },
+        {
+            "project_title": "Gestion d'hôtel",
+            "project_short_desc": "Gérer les réservations des chambres d'hôtel - <i>2024</i>",
+            "project_card_title": "Gestion d'hôtel",
+            "project_desc": "Construire son hôtel avec les différents types de chambre, puis faire la gestion des réservations. Structures complexes. Programme en C.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2024_Hotel-Management"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/gestion_hotel/thumbnail.jpg",
+                    "alt": "Program usage example"
+                },
+                {
+                    "src": "../assets/projets/gestion_hotel/img1.jpg",
+                    "alt": "Program usage example"
+                },
+                {
+                    "src": "../assets/projets/gestion_hotel/img2.jpg",
+                    "alt": "Program usage example"
+                },
+                {
+                    "src": "../assets/projets/gestion_hotel/img3.jpg",
+                    "alt": "Lines of code" 
+                }
+            ]
+        },
+        {
+            "project_title": "Calculateur de notes",
+            "project_short_desc": "Calculer des notes en utilisant un fichier ou l'entrée de l'utilisateur - <i>2024</i>",
+            "project_card_title": "Calculateur de notes",
+            "project_desc": "Programme en Python permattant de calculer des notes soit à l'aide d'un fichier ou bien avec l'entrée utilisateur.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/2024_Grades-Calculate"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/notes_calcul/thumbnail.jpg",
+                    "alt": "Terminal showing a grade calculator program"
+                },
+                {
+                    "src": "../assets/projets/notes_calcul/img1.jpg",
+                    "alt": "Terminal showing a program"
+                },
+                {
+                    "src": "../assets/projets/notes_calcul/img2.jpg",
+                    "alt": "Lines of code"
+                },
+                {
+                    "src": "../assets/projets/notes_calcul/img3.jpg",
+                    "alt": "Program explanation"
+                }
+            ]
+        }
+    ]
+}
