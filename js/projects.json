@@ -69,6 +69,100 @@
             ]
         },
         {
+            "project_title": "Roguelike generator",
+            "project_short_desc": "Générateur de niveau roguelike/roguelite sur Unity - <i>2026</i>",
+            "project_card_title": "Roguelike generator",
+            "project_desc": "Générateur de niveau aléatoire avec différents biomes, props.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/31-roguelike1"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/roguelike/thumbnail.png",
+                    "alt": "Terrain in Unity"
+                },
+                {
+                    "src": "../assets/projets/roguelike/img1.png",
+                    "alt": "Terrain in Unity"
+                },
+                {
+                    "src": "../assets/projets/roguelike/img2.png",
+                    "alt": "Terrain in Unity"
+                },
+                {
+                    "src": "../assets/projets/roguelike/img3.png",
+                    "alt": "Terrain in Unity"
+                },
+                {
+                    "src": "../assets/projets/roguelike/img4.png",
+                    "alt": "Tilemap"
+                }
+            ]
+        },
+        {
+            "project_title": "Breakthrough",
+            "project_short_desc": "Implémentation d'algorithmes IA pour gagner une partie de breakthrough - <i>2026</i>",
+            "project_card_title": "Breakthrough",
+            "project_desc": "Implémentation de plusieurs algorithmes IA pour jouer et maximiser les chances de gagner une partie de breakthrough. Minimax, AlphaBeta et UBFM.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/Breakthrough"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/breakthrough/thumbnail.png",
+                    "alt": "Breakthrough game"
+                },
+                {
+                    "src": "../assets/projets/breakthrough/img1.png",
+                    "alt": "Lines of code"
+                },
+                {
+                    "src": "../assets/projets/breakthrough/img2.png",
+                    "alt": "Breakthrough game"
+                }
+            ]
+        },
+        {
+            "project_title": "Auction Secured",
+            "project_short_desc": "Site d'enchère avec FastAPI - <i>2025</i>",
+            "project_card_title": "Auction Secured",
+            "project_desc": "Une application web avec FastAPI de vente et achat par enchères. Informations chiffrées avec RSA, échange de clé publique/privée avec le serveur.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/volatilespecial/secured-auction"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/secured_auction/thumbnail.jpg",
+                    "alt": "Auction website"
+                },
+                {
+                    "src": "../assets/projets/secured_auction/img1.jpg",
+                    "alt": "Login page with auction secured logo"
+                },
+                {
+                    "src": "../assets/projets/secured_auction/img2.jpg",
+                    "alt": "Create an auction"
+                },
+                {
+                    "src": "../assets/projets/secured_auction/img3.jpg",
+                    "alt": "Auction website"
+                },
+                {
+                    "src": "../assets/projets/secured_auction/img4.jpg",
+                    "alt": "Add money to account"
+                }
+            ]
+        },
+        {
             "project_title": "Obsidian Bank",
             "project_short_desc": "Site bancaire en Python - <i>2025</i>",
             "project_card_title": "Obsidian Bank",
