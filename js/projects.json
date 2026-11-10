@@ -1,36 +1,6 @@
 {
     "projects":[
         {
-            "project_title": "Contrôleur de LED pour phares (Angel Eyes)",
-            "project_short_desc": "Un contrôleur fait avec EasyEDA et Arduino - <i>en cours</i>",
-            "project_card_title": "Contrôleur de LED pour phares (Angel Eyes)",
-            "project_desc": "Un contrôleur complètement custom fait avec EasyEDA et un Arduino. Permet l'intégration de LED (Angel Eyes) sur des phares de voitures. (projet en cours)",
-            "links": [
-                {
-                    "name": "GitHub",
-                    "href": "#"
-                }
-            ],
-            "images": [
-                {
-                    "src": "../assets/projets/angeleyes/thumbnail.jpg",
-                    "alt": "Circuit board"
-                },
-                {
-                    "src": "../assets/projets/angeleyes/img1.jpg",
-                    "alt": "Schematic of a circuit board"
-                },
-                {
-                    "src": "../assets/projets/angeleyes/img2.jpg",
-                    "alt": "Schematic of a circuit board"
-                },
-                {
-                    "src": "../assets/projets/angeleyes/img3.jpg",
-                    "alt": "Circuit board in 3D view"
-                }
-            ]
-        },
-        {
             "project_title": "Choco",
             "project_short_desc": "Animation 3D en hommage à mon chien, Choco - <i>2026</i>",
             "project_card_title": "Choco",
@@ -65,6 +35,36 @@
                 {
                     "src": "../assets/projets/choco/img4.jpg",
                     "alt": "Two spheres moving around leaving trails behind"
+                }
+            ]
+        },
+        {
+            "project_title": "Contrôleur de LED pour phares (Angel Eyes)",
+            "project_short_desc": "Un contrôleur fait avec EasyEDA et Arduino - <i>en cours</i>",
+            "project_card_title": "Contrôleur de LED pour phares (Angel Eyes)",
+            "project_desc": "Un contrôleur complètement custom fait avec EasyEDA et un Arduino. Permet l'intégration de LED (Angel Eyes) sur des phares de voitures. (projet en cours)",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "#"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../assets/projets/angeleyes/thumbnail.jpg",
+                    "alt": "Circuit board"
+                },
+                {
+                    "src": "../assets/projets/angeleyes/img1.jpg",
+                    "alt": "Schematic of a circuit board"
+                },
+                {
+                    "src": "../assets/projets/angeleyes/img2.jpg",
+                    "alt": "Schematic of a circuit board"
+                },
+                {
+                    "src": "../assets/projets/angeleyes/img3.jpg",
+                    "alt": "Circuit board in 3D view"
                 }
             ]
         },
