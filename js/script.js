@@ -23,39 +23,33 @@ document.querySelectorAll(".v6Engine").forEach(img => {
     observer.observe(img);
 });
 
-
-
-
 function showSidebar(){
     const sideBar = document.querySelector(".sidebar");
-    // sideBar.style.display = 'flex';
     sideBar.classList.toggle("active");
 }
 
 function hideSidebar(){
     const sideBar = document.querySelector(".sidebar");
-    // sideBar.style.display = 'none';
     sideBar.classList.toggle("active");
 }
-
 
 // Particles load - Vincent Garreau
 particlesJS.load('particles-js', '/js/particles.json');
 
-let currentSelectedCard;
-
 function projectReveal(className){
-    console.log("inside");
     let classNameFormat = "." + className;
     let card = document.querySelector(classNameFormat);
-    // currentSelectedCard = classNameFormat;
     card.classList.add("visibleCard");
+    let body = document.body;
+    body.classList.add("prevent-scroll");
 }
 
 function projectClose(className){
     let classNameFormat = "." + className;
     let card = document.querySelector(classNameFormat);
     card.classList.remove("visibleCard");
+    let body = document.body;
+    body.classList.remove("prevent-scroll");
 }
 
 async function projectGen(){
@@ -68,7 +62,6 @@ async function projectGen(){
     wrapper.innerHTML = "";
 
     data.projects.forEach((project, index) => {
-        // console.log(project.project_title);
         const card = document.createElement("div");
         card.classList.add("project");
         card.setAttribute("onclick", `projectReveal('project-${index}')`);
@@ -97,7 +90,6 @@ async function projectGen(){
         card.appendChild(cardSeeMore);
 
         wrapper.appendChild(card);
-
 
         const openProjectCard = document.createElement("div");
         openProjectCard.classList.add('project-card');
@@ -150,36 +142,6 @@ async function projectGen(){
         openProjectCard.appendChild(openProjectCardImages);
 
         body.appendChild(openProjectCard);
-
-        // console.log(openProjectCard);
-
-
-
-
-
-        // const keys = Object.keys(project.links);
-        // const numberLinks = keys.length;
-
-        // let linkString = ""
-
-        // project.links.forEach((link, index) => {
-        //     linkString += `<a href='${link}'>${keys[index]}</a>`;
-        //     if(numberLinks - index != 1){
-        //         linkString += ' - ';
-        //     }
-
-
-            // const newLink = document.createElement("a");
-            // newLink.setAttribute("href", link);
-            // newLink.innerText(keys[index]);
-            // openProjectCardLinks.appendChild(newLink);
-            // if(numberLinks - index != 1){
-                
-            // }
-        // });
-        // openProjectCardLinks.innerText = linkString;
-        // console.log(openProjectCardLinks);
-
     });
 }
 
